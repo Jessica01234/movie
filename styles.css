@@ -1,0 +1,315 @@
+/* styling the background image */
+.bck-img{
+    background-image: url(image/Poster.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    color: white;
+}
+/* styling the tv-image */
+.tv-image{
+    margin-left: 3rem;
+}
+/* styling the menu image */
+.menu-img{
+    background-color: brown;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+/* styling the search input and image */
+.search{
+    display: flex;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 525px;
+    background: transparent;
+    color: #D1D5DB;
+    position: relative;
+}
+
+.searchbtn{
+  position: absolute;
+  right: 28rem;
+}
+/* styling the jonh wick's text and it's particles */
+.span-image{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.first-h1{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    width: 404px;
+    margin-top: 5rem;
+}
+
+.first-p{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    width: 302px;
+}
+
+.watchbtn{
+    background: transparent;
+    border-radius: 6px;
+    background: var(--rose-700, #BE123C);
+    border: none;
+    color: var(--white, #FFF);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.play{
+    width: 20px;
+    height: 20px;
+}
+/* styling the feature text */
+.Feature-text{
+color: #000;
+font-family: DM Sans;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+/* styling the see more text */
+.see-more{
+color: var(--rose-700, #BE123C);
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+  
+/* styling the movie posters */
+  .posterPath{
+    height: 500px;
+    width: 100%;
+  }
+
+  /* stylying the side bar in details.html */
+  .unordered{
+    border-radius: 0px 45px 45px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: #FFF;
+    width: 226px;
+    height: 800px;
+  }
+
+  .secondTv-image{
+    color: #333;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    padding-left: 2rem;
+
+   
+  }
+
+  .sidebar-list{
+    color: #666;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    padding-left: 2rem;
+    text-decoration: none;
+   
+  }
+
+  .sidebar-section{
+    border-radius: 20px;
+    border: 1px solid rgba(190, 18, 60, 0.70);
+    background: rgba(248, 231, 235, 0.40);
+    width: 170px;
+    height: 210px;
+    flex-shrink: 0;
+    margin-left: 2rem;
+  }
+
+  .sidebar-section1{
+    color: rgba(51, 51, 51, 0.80);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+   padding-left: 1rem;
+  }
+
+  .sidebar-section2{
+    color: #666;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 1rem;
+  }
+
+  .sidebar-section3{
+    color: #BE123C;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 2rem;
+    border-radius: 30px;
+    background: rgba(190, 18, 60, 0.20);
+  }
+
+  .movies{
+    color: #BE123C;
+    background: rgba(190, 18, 60, 0.10);
+    width: 100%;
+    height: 86px;
+    border-right: 3px solid #BE123C;
+  }
+
+  .starImage{
+    width: 20px;
+    height: 20px;
+    line-height: normal;
+  }
+
+  .average-style{
+    color: #E8E8E8;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-right: 3px solid #666;
+  }
+
+  .count-style{
+    color: #666;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  /* styling The Footer section */
+
+  .social-images{
+    display: flex;
+   justify-content: center;
+   gap: 5rem;
+    margin-top: 10rem;
+  }
+
+  .social-images :hover{
+    cursor: pointer;
+  }
+
+  .social-text{
+    display: flex;
+   justify-content: center;
+   gap: 7rem;
+   margin-top: 3rem;
+  }
+
+.social-text p:hover{
+  cursor: pointer;
+}
+  .copy-rite{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .rectangle-image p{
+    color: white;
+    position: absolute;
+    top: 12.6rem;
+    border-radius: 10px;
+    background: rgba(18, 18, 18, 0.50);
+    width: 360px;
+  }
+
+  .ticket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    background-color: #BE123C;
+    gap: 0.5rem;
+    width: 360px;
+    height: 50px;
+    margin-bottom: 1rem;
+  }
+  .ticket img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(190, 18, 60, 0.10);
+    border: 1px solid #BE123C;
+    gap: 0.5rem;
+    width: 360px;
+    height: 50px;
+    margin-bottom: 2rem;
+  }
+
+  .list img{
+    width: 23px;
+    height: 23px;
+  }
+
+  .rated{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 8rem;
+    border-radius: 10px;
+    border: 1px solid #C7C7C7;
+    background: rgba(255, 255, 255, 0.80);
+  }
+
+  .rated button{
+    border-radius: 10px;
+    color: white;
+    background-color: #BE123C;
+    border: transparent;
+  }
+
+  .rated p{
+    padding-top: 1rem;
+    margin-right: 8rem;
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .rated img{
+    height: 50px;
+    /* width: 3%; */
+  }
