@@ -2,7 +2,7 @@
     const movieid = link.get('id');
     console.log('movie id:', movieid);
 
-    const apiKey = 'f6c406089fd9f7114034b43b375a72f6';
+    const apiKey = '716b1819e64715885194068ab1ab2892'
     const baseUrl = 'https://api.themoviedb.org/3/';
     const endpoint = `/movie/${movieid}`;
 
